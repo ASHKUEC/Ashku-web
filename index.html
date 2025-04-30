@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ASHKU – Naturaleza para perros felices</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background: url('img/header.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background: #4b2e2e;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .producto {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .producto img {
+      max-width: 100%;
+      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ASHKU</h1>
+    <p>Snacks naturales, ropa y accesorios para perros</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="img/oreja.jpg" alt="Orejas de vaca deshidratadas">
+        <h3>Orejas de vaca</h3>
+        <p>100% naturales y deshidratadas, sin aditivos.</p>
+      </div>
+      <div class="producto">
+        <img src="img/pata.jpg" alt="Patas de pollo">
+        <h3>Patas de pollo</h3>
+        <p>Deliciosas y crocantes, ideales para la limpieza dental.</p>
+      </div>
+      <div class="producto">
+        <img src="img/poncho.jpg" alt="Poncho andino para perro">
+        <h3>Ponchos andinos</h3>
+        <p>Confeccionados en Ecuador con lana de alpaca.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros">
+    <h2>Sobre ASHKU</h2>
+    <p>
+      Somos una empresa ecuatoriana que elabora productos 100% naturales y artesanales para perros. Promovemos el bienestar animal con snacks deshidratados, ropa tradicional y juguetes duraderos. Creemos en el poder de la naturaleza para hacer felices a nuestros mejores amigos.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>📧 ashku@email.com</p>
+    <p>📱 <a href="https://wa.me/593XXXXXXXXX" target="_blank">Escríbenos por WhatsApp</a></p>
+    <p>🌐 Instagram: <a href="https://instagram.com/ashkupets" target="_blank">@ashkupets</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 ASHKU - Todos los derechos reservados</p>
+  </footer>
+
+</body>
+</html>
